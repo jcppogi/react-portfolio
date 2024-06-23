@@ -1,0 +1,246 @@
+
+.about{
+    height: calc(100vh - 70px);
+    max-width: 1366px;
+    position: relative;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    padding: 0px 80px;
+
+    .header{
+        height:20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* Align items to the start of the flex container */
+        
+        h2{
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+    }
+
+    section{
+        position: relative;
+        height: 100%;
+        scroll-snap-align: center;
+
+
+        .technologies{
+            height: 80%;
+            width: 100%;
+                  
+
+            .techContainer{
+                height: 90%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 10px;
+
+
+                .devImage{
+                    flex: 1 1 50%; 
+                    background-color: #141b2d;
+                    height: 100%;
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 400px;
+                    max-width: 600px;
+                }
+
+
+                .TechDetails{
+                    height: 100%;
+                    flex: 1 1 50%; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    min-width: 400px;
+                    
+                
+
+                    img{
+                    
+                    height: 50px;
+                    width: 50px;
+                    margin: 30px;
+                    }
+
+                }
+            }
+        }
+
+
+
+        .skills{
+            height: 80%;
+            width: 100%;  
+
+            .skillsContainer{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+                flex-wrap: wrap;
+            
+                .wrapper{
+                        justify-content: center;
+                        align-items: center;
+                        width: 40%;
+                        min-width: 400px;
+                        max-width: 800px;
+                        margin: 0px 20px;
+            
+                        .skills{
+                            display: flex;
+                            align-items: center;
+                            width:100%;
+                            height: 35px;
+                    
+                            .logo{
+                                display: flex;                  
+                                justify-content: left;
+                                align-items: center;
+                                width: 100px;
+                                
+                                img{
+                                    height: 20px;
+                                    width: 20px;
+                                    margin-right: 5px;
+                                }
+                            }
+                    
+                    
+                    
+                            .yrs{
+                                width: 100%;
+    
+                                .progressbar{
+                                    height: 17px;
+                                    width: 100%;
+                                    border-radius: 10px;
+                                    overflow: hidden;
+                                    background-color: #ecf0f1;
+                                    color: white;
+                    
+                                    .totalyrs{
+                                        position: relative;
+                                        background-color: #2980b9;
+                                        height: 30px;
+                                        text-align: right;
+                                        padding-right: 20px;
+                                        margin-top: -1px;
+            
+                                        .yrscount{
+                                            position: relative;
+                                            background-color: blue;
+                                        }
+                                    }
+                    
+                                }
+                            }
+                    
+                        }
+                }
+            
+            
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+        
+    .about-container{
+        position: relative;
+        height: 100%;
+
+        .aboutsection{
+            position: relative;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .profile{
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                height: 300px;
+                width: 30%;
+
+                img{
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 30px;
+                }
+                
+            }
+
+            .aboutText{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70%;
+                height: 300px;
+                text-align: left;
+
+                div{
+                    margin: 0px 50px;
+                    font-size: 18px;
+                }
+
+            }
+
+        }
+    }
+}
+
+    //     .progress{
+    //         position: sticky;
+    //         top: 0;
+    //         left: 0;
+    //         padding-top: 50px;
+    //         text-align: center;
+    //         color: orange;
+    //         font-size: 36px;
+        
+    //         .progressBar{
+    //             height: 10px;
+    //             background-color: white;
+    //         }
+    //     }
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+

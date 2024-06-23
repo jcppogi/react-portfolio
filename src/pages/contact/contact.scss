@@ -1,0 +1,47 @@
+.contact-container{
+    height: calc(100vh - 70px);
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0px 200px;
+
+    .contact-info{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            font-size: 30px;
+        }
+
+        span{
+            font-weight: 300;
+        }
+    }
+
+    .formContainer{
+        flex: 1;
+
+            .emailSvg{
+                position: absolute;
+                margin: auto;
+                margin-top: -50px;
+                z-index: -1;
+                stroke: orange !important;
+            }
+
+            form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
+        }
+    }
+
+
+}
+
