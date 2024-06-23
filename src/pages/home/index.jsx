@@ -50,7 +50,7 @@ const Home = () => {
   const theme = useTheme();
   const [refreshKey, setRefreshKey] = useState(0);
 
-  
+    
 
   const refreshGif = () => {
     setRefreshKey(prevKey => prevKey + 1);
